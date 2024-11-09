@@ -1,5 +1,24 @@
-# SecureFileSharing
+# Blockchain based Cloud File Sharing System
 Prototype to store files on IPFS and Ethereum Blockchain.
+
+## Introduction
+
+The Secure File Sharing Blockchain project leverages IPFS and Ethereum blockchain technology to provide a decentralized, secure, and transparent platform for sharing files among users. The project aims to combine blockchain's immutability and decentralization with the distributed storage capabilities of IPFS. This approach enhances the security and privacy of file sharing, addressing issues of centralization and data tampering.
+
+
+## Architecture and Design
+
+The system architecture integrates a smart contract deployed on the Ethereum blockchain 
+with IPFS for decentralized file storage. Authorized users register on the blockchain, and files are uploaded to IPFS. The file metadata, including the IPFS hash, is recorded in a smart contract. A React.js frontend facilitates user interactions. The design ensures that files are securely stored and only accessible to authorized users. 
+
+## Functionality
+
+The system allows users to register and share files securely as follows: 
+
+-	User Registration: Users register their addresses, which are verified and stored on the blockchain. 
+-	File Upload: Files are uploaded to IPFS, and the IPFS hash is recorded in the smart contract. 
+-	File Sharing: Only authorized users can access shared files, providing a secure sharing mechanism. 
+-	Decentralized Storage: Files are stored on IPFS, ensuring data availability and redundancy. 
 
 ## Requirements
 * IPFS 
@@ -45,7 +64,7 @@ Prototype to store files on IPFS and Ethereum Blockchain.
 Note: The implementation stores the addresses of the authorized accounts in smart contract as per the current Ganache accounts. So, the values would need to be updated as per the blockchain on which the application runs.
  
 
-### Demo 
+Screenshots   
 
 
 ![](https://github.com/vaibs28/SecureFileSharingBlockchain/blob/master/img/s1.png).  
@@ -62,5 +81,3 @@ Note: The implementation stores the addresses of the authorized accounts in smar
 
 
 ![](https://github.com/vaibs28/SecureFileSharingBlockchain/blob/master/img/s5.png).  
-
-
