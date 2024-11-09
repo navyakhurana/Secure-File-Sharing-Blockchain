@@ -64,8 +64,9 @@ The system allows users to register and share files securely as follows:
 Note: The implementation stores the addresses of the authorized accounts in smart contract as per the current Ganache accounts. So, the values would need to be updated as per the blockchain on which the application runs.
  
 
-Screenshots   
+## Demo
 
+#### Demo Video:
 
 ![](https://github.com/vaibs28/SecureFileSharingBlockchain/blob/master/img/s1.png).  
 
